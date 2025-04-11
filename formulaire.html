@@ -1,0 +1,38 @@
+<form method="POST" action="https://formspree.io/f/xoveyolj">
+  <h2>Crée ta chanson personnalisée 🎶</h2>
+
+  <label for="prenom">Ton prénom :</label><br>
+  <input type="text" id="prenom" name="Prénom" required><br><br>
+
+  <label for="destinataire">À qui est destinée la chanson ?</label><br>
+  <input type="text" id="destinataire" name="Destinataire" required><br><br>
+
+  <label for="occasion">Occasion :</label><br>
+  <select id="occasion" name="Occasion" required>
+    <option value="">-- Choisis une option --</option>
+    <option value="Déclaration d'amour">Déclaration d'amour</option>
+    <option value="Anniversaire">Anniversaire</option>
+    <option value="Mariage">Mariage</option>
+    <option value="Naissance">Naissance</option>
+    <option value="Autre">Autre</option>
+  </select><br><br>
+
+  <label for="style">Style musical préféré :</label><br>
+  <select id="style" name="Style" required>
+    <option value="">-- Choisis un style --</option>
+    <option value="Pop">Pop</option>
+    <option value="Rap">Rap</option>
+    <option value="Rock">Rock</option>
+    <option value="Chanson douce">Chanson douce</option>
+    <option value="Humoristique">Humoristique</option>
+    <option value="Autre">Autre</option>
+  </select><br><br>
+
+  <label for="infos">Quelques détails à inclure dans la chanson (prénoms, souvenirs, lieux, passions, etc.) :</label><br>
+  <textarea id="infos" name="Détails" rows="5" placeholder="Raconte un peu l'histoire..."></textarea><br><br>
+
+  <label for="email">Ton email (pour recevoir la chanson) :</label><br>
+  <input type="email" id="email" name="Email" required><br><br>
+
+  <button type="submit">Envoyer ✨</button>
+</form>
